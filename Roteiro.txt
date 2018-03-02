@@ -7,9 +7,22 @@
     ssh "usuario"@"ip" -->Para acessar outra maquina.
 07) ls -l -->Listar aquivos
 08) ps -->Processo atual
-09) ps axu -->Mostra detalhes de usuario no sistema
-10) touch --> Atualiza data de modificação 
-11) man --> mostra detalhe dos comandos.
-12) cat --> Mostrar o arquivo direto no terminal
-13) cat -b --> enumera a quantidade de linhas.
-14) cat -A --> mostra detalhadamene os comandos que o usuario realizou 
+09) ps axu	 -->Mostra detalhes de usuario no sistema
+10) touch	 --> Atualiza data de modificação 
+11) man		 --> mostra detalhe dos comandos.
+12) cat		 --> Mostrar o arquivo direto no terminal
+13) cat -b	 --> enumera a quantidade de linhas.
+14) cat -A	 --> mostra detalhadamene os comandos que o usuario realizou
+15) tac		 --> mostrar o arquivo de baixo para cima
+16) tail	 --> mostra a parte de baixo de um arquivo longo
+17) head	 --> mostra so a part de cima do arquivo
+18) wc		 --> Mostra a quantidade de linhas e palavras e caracteres de um arquivo
+19) arquivos$ head -n3 'arquivo'| wc -w -->
+20) sort --> organiza em ordem alfabetica
+21)tail /etc/passwd | sort -k3 -t ":"	-->
+22)uniq -u --> não aparece string repetida
+23)uniq -d --> mostra os repetidos
+24)
+25)uniq -c --> conta as strings repetidas
+
+ 
