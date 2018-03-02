@@ -1,0 +1,15 @@
+02) mkdir -->Criar pasta02) mkdir -->Criar pasta
+03) mkdir -p -->Criar arvore de diretorios
+04) rm -->Deletar arquivo/ rm -r -->Deletar recursivamente
+05) rm -rf -->forca Deletar
+06) scp -r usuario@ip:~/
+    scp -f --> Para baixar arquivos, (-r) para pastas
+    ssh "usuario"@"ip" -->Para acessar outra maquina.
+07) ls -l -->Listar aquivos
+08) ps -->Processo atual
+09) ps axu -->Mostra detalhes de usuario no sistema
+10) touch --> Atualiza data de modificação 
+11) man --> mostra detalhe dos comandos.
+12) cat --> Mostrar o arquivo direto no terminal
+13) cat -b --> enumera a quantidade de linhas.
+14) cat -A --> mostra detalhadamene os comandos que o usuario realizou 
